@@ -7,7 +7,7 @@ When registered as the handler for magnet: links, this script formats the link i
 ### The Script ###
 * Put the .ps1 file somewhere
 * Edit the value of the __$watch__ variable to point to the folder that your BT client watches for new .torrent files. Don't forget a trailing "\\".
-## Registering the handler ##
+### Registering the handler ###
 * Put the .reg file somewhere
 * Modify the __HKEY_CLASSES_ROOT\\Magnet\\shell\\open\\command__ value with the path to your .ps1 file. Remember to escape your "\\"s.
 * Merge the .reg
